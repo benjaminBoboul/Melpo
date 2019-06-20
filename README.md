@@ -2,6 +2,16 @@
 
 The LaTeX document class I use to write my reports.
 
+## Dependencies
+
+`LaTeX`,
+`LuaLaTeX`,
+`minted`
+
+## Recommended Tools
+
+`docker:texlive2018`
+
 ## How to use
 
 Each branch is a specific template so be sure to use the right branch when compiling.
@@ -29,3 +39,27 @@ _Work in progress..._
  - [ ] Predefined colors collections
  - [ ] Additionnal informations
  - [ ] Predefined tikz styles
+
+## Modular colorscheme
+
+### Adding a custom color scheme
+
+## Titlepage styles
+
+### Modern
+
+### Digital
+
+## Tikz Predefined styles
+
+### Network graph
+
+### SYSML
+
+## Source code highlighting
+
+### Cobalt's theme
+
+### Dracula's theme
+
+### Github's theme

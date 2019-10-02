@@ -9,7 +9,6 @@
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
-\RequirePackage{circuitikz} % dessin elec avec tikz
 \RequirePackage{float}
 \RequirePackage{graphicx}
 \RequirePackage{hyperref}

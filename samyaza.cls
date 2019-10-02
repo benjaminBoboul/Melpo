@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{melpo}[melpo]
+\ProvidesPackage{samyaza}[samyaza]
 \LoadClassWithOptions{book}
 
 \RequirePackage{fontspec}

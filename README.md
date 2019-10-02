@@ -1,8 +1,8 @@
-# Melpo
+# Pandemonium
 
-The LaTeX document class I use to write my reports.
+This repository is a collection of _LaTeX document class_ that tend to use on a daily basis. Thoses document may not always fullfill your needs, feel free to fork or suggest features.
 
-__Recommendations :__ In order to correctly compile your document using _melpo_ document class, I recommend you to use `lualatex` (which is my daily driver).
+__Recommendations :__ In order to correctly compile your document using one of the document classes, I recommend you to use `lualatex` (which is my daily tool).
 
 If you plan to use a pipeline based on `docker` like _Gitlab-CI_ to compile your document, have a look at the `docker:texlive2018` image.
 

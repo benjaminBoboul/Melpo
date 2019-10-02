@@ -2,64 +2,29 @@
 
 The LaTeX document class I use to write my reports.
 
-## Dependencies
+__Recommendations :__ In order to correctly compile your document using _melpo_ document class, I recommend you to use `lualatex` (which is my daily driver).
 
-`LaTeX`,
-`LuaLaTeX`,
-`minted`
+If you plan to use a pipeline based on `docker` like _Gitlab-CI_ to compile your document, have a look at the `docker:texlive2018` image.
 
-## Recommended Tools
+## Installation
 
-`docker:texlive2018`
+First, clone this repository using `git clone` or `git submodule add` :
 
-## How to use
-
-Each branch is a specific template so be sure to use the right branch when compiling.
-
-```bash
-git submodule add https://github.com/benjaminBoboul/Melpo.git theme
-ln -s theme/melpo.cls melpo.cls
+```console
+# Using clone
+git clone https://github.com/benjaminBoboul/Melpo.git
+# Using submodule
+git submodule add https://github.com/benjaminBoboul/Melpo.git
 ```
 
-After this, you can edit you main document to use the template :
+Then, you have two solutions, either you create a symbolic link of `melpo.cls` or you add `melpo.cls` to your __texlive tree__.
+
+Finally, edit your TeX file so your `documentclass` tell your compiler to use this template :
 
 ```latex
 \documentclass{melpo}
+
+\begin{document}
+% your document goes here..
+\end{document}
 ```
-
-Then, you could compile your document using `lualatex`.
-
-# Features
-
-_Work in progress..._
-
- - [ ] Code environment
- - [ ] Digital/Printing mode
- - [ ] Modular theming option
- - [ ] Predefined colors collections
- - [ ] Additionnal informations
- - [ ] Predefined tikz styles
-
-## Modular colorscheme
-
-### Adding a custom color scheme
-
-## Titlepage styles
-
-### Modern
-
-### Digital
-
-## Tikz Predefined styles
-
-### Network graph
-
-### SYSML
-
-## Source code highlighting
-
-### Cobalt's theme
-
-### Dracula's theme
-
-### Github's theme

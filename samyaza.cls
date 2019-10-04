@@ -15,6 +15,9 @@
 \RequirePackage{tikz}
 \RequirePackage{circuitikz}
 \RequirePackage{listings}
+\RequirePackage{siunitx}
+\RequirePackage{esvect}
+\RequirePackage{gensymb}
 
 \lstset{
 	basicstyle=\footnotesize\ttfamily,

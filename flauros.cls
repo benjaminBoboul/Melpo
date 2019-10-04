@@ -16,3 +16,9 @@
 \RequirePackage{siunitx}
 \RequirePackage{esvect}
 \RequirePackage{gensymb}
+
+\usetheme[secheader]{Madrid}
+\usecolortheme{orchid}
+\useoutertheme{infolines}
+\useinnertheme{rectangles}
+\usefonttheme{professionalfonts}

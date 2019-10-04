@@ -13,3 +13,11 @@
 \RequirePackage{graphicx}
 \RequirePackage{hyperref}
 \RequirePackage{import}
+\RequirePackage{tikz}
+\RequirePackage{circuitikz}
+\RequirePackage{listings}
+
+\lstset{
+	basicstyle=\footnotesize\ttfamily,
+	breaklines=true
+}

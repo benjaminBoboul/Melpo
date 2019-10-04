@@ -10,3 +10,9 @@
 \RequirePackage{float}
 \RequirePackage{graphicx}
 \RequirePackage{import}
+\RequirePackage{tikz}
+\RequirePackage{circuitikz}
+\RequirePackage{listings}
+\RequirePackage{siunitx}
+\RequirePackage{esvect}
+\RequirePackage{gensymb}

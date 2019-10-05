@@ -10,7 +10,8 @@
 \RequirePackage{amsthm}
 \RequirePackage{float}
 \RequirePackage{graphicx}
-\RequirePackage{hyperref}
+\RequirePackage[usenames,dvipsnames]{xcolor}
+\RequirePackage[colorlinks, breaklinks, linkcolor=BlueViolet, citecolor=BlueViolet, urlcolor=BlueViolet]{hyperref}
 \RequirePackage{import}
 \RequirePackage{tikz}
 \RequirePackage{circuitikz}
@@ -19,7 +20,3 @@
 \RequirePackage{esvect}
 \RequirePackage{gensymb}
 
-\lstset{
-	basicstyle=\footnotesize\ttfamily,
-	breaklines=true
-}

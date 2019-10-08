@@ -4,7 +4,7 @@
 \RequirePackage{fontspec}
 \RequirePackage{babel}
 \RequirePackage[colorlinks, breaklinks, linkcolor=BlueViolet, citecolor=BlueViolet, urlcolor=BlueViolet]{hyperref}
-\RequirePackage[toc, style=listhypergroup, nonumberlist, numberedsection, acronym, shortcuts, backref=page]{glossaries}
+\RequirePackage[toc, style=listhypergroup, numberedsection, acronym, shortcuts]{glossaries}
 \RequirePackage{glossaries-extra}
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}

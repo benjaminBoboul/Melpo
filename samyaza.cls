@@ -3,6 +3,7 @@
 \LoadClassWithOptions{book}
 \RequirePackage{fontspec}
 \RequirePackage{babel}
+\RequirePackage[colorlinks, breaklinks, linkcolor=BlueViolet, citecolor=BlueViolet, urlcolor=BlueViolet]{hyperref}
 \RequirePackage[toc, style=listhypergroup, nonumberlist, numberedsection, acronym, shortcuts]{glossaries}
 \RequirePackage{glossaries-extra}
 \RequirePackage{amsmath}
@@ -11,7 +12,6 @@
 \RequirePackage{float}
 \RequirePackage{graphicx}
 \RequirePackage[usenames,dvipsnames]{xcolor}
-\RequirePackage[colorlinks, breaklinks, linkcolor=BlueViolet, citecolor=BlueViolet, urlcolor=BlueViolet]{hyperref}
 \RequirePackage{import}
 \RequirePackage{tikz}
 \RequirePackage{circuitikz}

@@ -12,17 +12,17 @@ First, clone this repository using `git clone` or `git submodule add` :
 
 ```console
 # Using clone
-git clone https://github.com/benjaminBoboul/Melpo.git
+git clone https://github.com/benjaminBoboul/Pandemonium.git
 # Using submodule
-git submodule add https://github.com/benjaminBoboul/Melpo.git
+git submodule add https://github.com/benjaminBoboul/Pandemonium.git
 ```
 
-Then, you have two solutions, either you create a symbolic link of `melpo.cls` or you add `melpo.cls` to your __texlive tree__.
+Then, you have two solutions, either you create a symbolic link (i.e. `samyaza.cls`) or you add _document classes_ to your __texlive tree__.
 
 Finally, edit your TeX file so your `documentclass` tell your compiler to use this template :
 
 ```latex
-\documentclass{melpo}
+\documentclass{samyaza}
 
 \begin{document}
 % your document goes here..

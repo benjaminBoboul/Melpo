@@ -2,29 +2,23 @@
 
 This repository is a collection of _LaTeX document class_ that tend to use on a daily basis. Thoses document may not always fullfill your needs, feel free to fork or suggest features.
 
-__Recommendations :__ In order to correctly compile your document using one of the document classes, I recommend you to use `lualatex` (which is my daily tool).
+__Recommendations :__ In order to correctly compile your document using one of the document classes, I recommend you to use `xelatex` (which is my daily tool).
 
-If you plan to use a pipeline based on `docker` like _Gitlab-CI_ to compile your document, have a look at the `docker:texlive2018` image.
+If you plan to use a pipeline based on `docker` like _Gitlab-CI_ to compile your document, have a look at the `docker:texlive2019` image.
 
 ## Installation
 
 First, clone this repository using `git clone` or `git submodule add` :
 
+1. Using the submodule functionnality will allow you to keep track of the documentclass evolutions alongside your repository
+1. If you're not using Git to keep track of changes, you can either define symbolic link between the documentclass and your directory or directly edit inside your fresh clone.
+
+## Compilation recommendations
+
 ```console
-# Using clone
-git clone https://github.com/benjaminBoboul/Pandemonium.git
-# Using submodule
-git submodule add https://github.com/benjaminBoboul/Pandemonium.git
-```
-
-Then, you have two solutions, either you create a symbolic link (i.e. `samyaza.cls`) or you add _document classes_ to your __texlive tree__.
-
-Finally, edit your TeX file so your `documentclass` tell your compiler to use this template :
-
-```latex
-\documentclass{samyaza}
-
-\begin{document}
-% your document goes here..
-\end{document}
+$ xelatex --shell-escape --output-dir=out your_file.tex
+[...]
+$ cd out && makeglossaries your_file && cd ..
+$ xelatex --shell-escape --output-dir=out your_file.tex
+[...]
 ```

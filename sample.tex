@@ -1,0 +1,49 @@
+%!TEX program = xelatex
+%!TEX root = sample.tex
+%!TEX options = --shell-escape
+%!TEX output_directory = out
+%!TEX spellcheck = fr-FR
+%!BIB program = biblatex
+
+\documentclass[french]{alocer}
+\title{Some sample document}
+\author{Benjamin Boboul}
+\date{\today}
+
+\newacronym{ECDLP}{ECDLP}{elliptic-curve discrete logarithm problem}
+
+\newglossaryentry{Openstack}{
+	name = OpenStack,
+	description = Hosting service
+}
+\pgfplotsset{compat=1.16}
+\chapterstyle{thatcher}
+\usepackage[bible]{blindtext}
+\blindmathtrue
+\begin{document}
+	\frontmatter
+	\maketitle
+	\tableofcontents
+	\mainmatter
+	\part{random document}
+	\Blinddocument 
+	\part{Some part}
+	\chapter*{Test}
+	
+	\section{Code sample}
+\begin{minted}{python}
+from os import getenv
+
+my_env_var = getenv("SOME_ENV")
+\end{minted}
+
+	\section[Glossary]{Glossary sample}
+	\gls{ECDLP}
+	\gls{Openstack}
+
+	\backmatter
+	\listoffigures
+	\listoftables
+	\printglossaries
+	\appendix
+\end{document}

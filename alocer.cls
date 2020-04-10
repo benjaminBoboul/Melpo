@@ -4,7 +4,7 @@
 
 \RequirePackage{fontspec}
 \RequirePackage{babel}
-\RequirePackage[toc, style=listhypergroup, nonumberlist, numberedsection, acronym, shortcuts]{glossaries}
+\RequirePackage[toc, nonumberlist, numberedsection, acronym, shortcuts]{glossaries}
 \RequirePackage[automake]{glossaries-extra}
 \RequirePackage{import}
 

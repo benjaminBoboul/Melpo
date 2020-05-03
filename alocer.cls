@@ -1,16 +1,15 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{alocer}[alocer]
-\LoadClassWithOptions{memoir}
+\LoadClassWithOptions{scrbook}
 
 \RequirePackage{fontspec}
 \RequirePackage{babel}
 \RequirePackage[toc, nonumberlist, numberedsection, acronym, shortcuts]{glossaries}
 \RequirePackage[automake]{glossaries-extra}
+\RequirePackage[backend=biber]{biblatex}
 \RequirePackage{import}
 
-\RequirePackage{amsmath}
-\RequirePackage{amssymb}
-\RequirePackage{amsthm}
+\RequirePackage{amsmath, amssymb, amsthm}
 
 \RequirePackage[svgnames]{xcolor}
 \RequirePackage{graphicx}
@@ -34,7 +33,7 @@
     framesep=2mm,
     mathescape,
     autogobble,
-    frame=none,
+    frame=single,
     rulecolor=black,
     style=friendly,
     bgcolor=white,

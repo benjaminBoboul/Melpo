@@ -5,7 +5,7 @@
 \RequirePackage{fontspec}
 \RequirePackage{babel}
 \RequirePackage[toc, nonumberlist, numberedsection, acronym, shortcuts]{glossaries}
-\RequirePackage[automake]{glossaries-extra}
+\RequirePackage{glossaries-extra}
 \RequirePackage[backend=biber]{biblatex}
 \RequirePackage{import}
 

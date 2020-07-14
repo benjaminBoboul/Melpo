@@ -4,8 +4,7 @@
 
 \RequirePackage{fontspec}
 \RequirePackage{babel}
-\RequirePackage[toc, nonumberlist, numberedsection, acronym, shortcuts]{glossaries}
-\RequirePackage{glossaries-extra}
+\RequirePackage[toc, nonumberlist, numberedsection, acronym, shortcuts]{glossaries-extra}
 \RequirePackage[backend=biber]{biblatex}
 \RequirePackage{import}
 

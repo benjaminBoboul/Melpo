@@ -25,7 +25,7 @@
 \usetikzlibrary{shapes, calc, patterns}
 \RequirePackage{pgfplots}
 
-\RequirePackage[outputdir=out]{minted}
+\RequirePackage{minted}
 \setminted{
     breaklines,
     fontsize=\scriptsize,

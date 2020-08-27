@@ -39,6 +39,8 @@
     tabsize=2
 }
 
+\RequirePackage{thmtools}
+\RequirePackage{todonotes}
 
 % glossary & references
 \makeglossaries

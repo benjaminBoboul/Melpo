@@ -4,11 +4,6 @@
 
 \RequirePackage{fontspec}
 \RequirePackage{babel}
-\RequirePackage[toc, nonumberlist, numberedsection, acronym, shortcuts]{glossaries-extra}
-\RequirePackage[backend=biber]{biblatex}
-\RequirePackage{import}
-
-\RequirePackage{amsmath, amssymb, amsthm}
 
 \RequirePackage[svgnames]{xcolor}
 \RequirePackage{graphicx}
@@ -20,6 +15,12 @@
     citecolor=DarkOrchid,
     urlcolor=DarkSlateBlue
 }
+
+\RequirePackage[toc, nonumberlist, numberedsection, acronym, shortcuts]{glossaries-extra}
+\RequirePackage[backend=biber]{biblatex}
+\RequirePackage{import}
+
+\RequirePackage{amsmath, amssymb, amsthm}
 
 \RequirePackage{tikz}
 \usetikzlibrary{shapes, calc, patterns}

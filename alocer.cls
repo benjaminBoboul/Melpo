@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{alocer}[alocer]
 \LoadClassWithOptions{scrbook}
-
+\RequirePackage{scrhack}
 \RequirePackage{fontspec}
 \RequirePackage{babel}
 
@@ -29,7 +29,7 @@
 \RequirePackage{minted}
 \setminted{
     breaklines,
-    fontsize=\scriptsize,
+    fontsize=\tiny,
     framesep=2mm,
     mathescape,
     autogobble,
@@ -45,6 +45,7 @@
 
 % glossary & references
 \makeglossaries
+\GlsXtrEnableInitialTagging{acronym,abbreviation}{\itag}
 
 % fonts selection
 \usepackage[default, regular, semibold]{sourceserifpro}

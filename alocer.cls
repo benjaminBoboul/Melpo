@@ -26,19 +26,6 @@
 \usetikzlibrary{shapes, calc, patterns}
 \RequirePackage{pgfplots}
 
-\RequirePackage{minted}
-\setminted{
-    breaklines,
-    fontsize=\tiny,
-    framesep=2mm,
-    mathescape,
-    autogobble,
-    frame=single,
-    rulecolor=black,
-    style=friendly,
-    bgcolor=white,
-    tabsize=2
-}
 
 \RequirePackage{thmtools}
 \RequirePackage{todonotes}
